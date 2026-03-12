@@ -58,9 +58,9 @@ export default function Mission() {
 
           <p className="font-[family-name:var(--font-sans)] text-lg md:text-xl text-charcoal-light leading-relaxed mb-8">
             We believe that what you put on your body matters just as much as
-            what you put in it. That&apos;s why every product is made through
-            all-natural, cold processes — preserving the God-given nutrients that
-            your skin was designed to receive.
+            what you put in it. That&apos;s why every product is crafted in the
+            spirit of Kharis — preserving the God-given nutrients that your skin
+            was designed to receive.
           </p>
 
           <p className="font-[family-name:var(--font-sans)] text-lg md:text-xl text-charcoal-light leading-relaxed mb-12">
@@ -78,19 +78,21 @@ export default function Mission() {
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
           viewport={{ once: true, margin: "-100px" }}
-          className="relative max-w-2xl mx-auto"
+          className="relative max-w-2xl mx-auto bg-cream-dark/50 rounded-2xl px-8 py-10"
         >
           <div className="absolute -top-4 left-1/2 -translate-x-1/2 font-[family-name:var(--font-serif)] text-6xl text-cobalt/10">
             &ldquo;
           </div>
-          <p className="font-[family-name:var(--font-serif)] text-2xl md:text-3xl italic text-cobalt leading-relaxed">
-            &ldquo;For I know the plans I have for you,&rdquo; declares the
-            Lord, &ldquo;plans to prosper you and not to harm you, plans to give
-            you hope and a future.&rdquo;
+          <p className="font-[family-name:var(--font-serif)] text-xl md:text-2xl italic text-cobalt leading-relaxed mb-6">
+            Kharisdon exists to celebrate the gift of grace through handmade
+            care. Just as we have freely received the life-giving love of John
+            3:16, we freely give to others — funding recovery programs that offer
+            the restoration promised in 1 Peter 5:10.
           </p>
-          <cite className="block mt-4 font-[family-name:var(--font-sans)] text-sm tracking-widest uppercase text-gold not-italic">
-            Jeremiah 29:11
-          </cite>
+          <p className="font-[family-name:var(--font-serif)] text-xl md:text-2xl italic text-cobalt leading-relaxed">
+            Every product is a handcrafted testament that grace is a gift
+            (Ephesians 2:8) meant to be shared for the healing of our community.
+          </p>
         </motion.blockquote>
       </div>
     </section>

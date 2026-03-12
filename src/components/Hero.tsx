@@ -1,21 +1,50 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
+// Pre-computed particle values to avoid hydration mismatch from Math.random()
+const particleData = [
+  { w: 3.2, l: 5, dur: 12, delay: 1 },
+  { w: 4.8, l: 15, dur: 10, delay: 3 },
+  { w: 2.5, l: 25, dur: 14, delay: 0.5 },
+  { w: 5.1, l: 35, dur: 9, delay: 5 },
+  { w: 3.8, l: 42, dur: 11, delay: 2 },
+  { w: 2.2, l: 50, dur: 15, delay: 7 },
+  { w: 4.5, l: 58, dur: 8.5, delay: 4 },
+  { w: 3.0, l: 65, dur: 13, delay: 6 },
+  { w: 5.5, l: 72, dur: 10.5, delay: 1.5 },
+  { w: 2.8, l: 78, dur: 14.5, delay: 3.5 },
+  { w: 4.2, l: 85, dur: 9.5, delay: 0 },
+  { w: 3.5, l: 92, dur: 12.5, delay: 5.5 },
+  { w: 2.0, l: 10, dur: 11.5, delay: 7.5 },
+  { w: 4.0, l: 20, dur: 8, delay: 2.5 },
+  { w: 3.3, l: 30, dur: 16, delay: 4.5 },
+  { w: 5.0, l: 48, dur: 10, delay: 6.5 },
+  { w: 2.6, l: 55, dur: 13.5, delay: 1.2 },
+  { w: 4.7, l: 68, dur: 9, delay: 3.8 },
+  { w: 3.1, l: 82, dur: 15.5, delay: 0.8 },
+  { w: 2.4, l: 95, dur: 11, delay: 5.2 },
+];
+
 function Particles() {
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
+  if (!mounted) return null;
+
   return (
     <div className="absolute inset-0 overflow-hidden pointer-events-none">
-      {Array.from({ length: 20 }).map((_, i) => (
+      {particleData.map((p, i) => (
         <div
           key={i}
           className="absolute rounded-full bg-white/20"
           style={{
-            width: Math.random() * 4 + 2 + "px",
-            height: Math.random() * 4 + 2 + "px",
-            left: Math.random() * 100 + "%",
+            width: p.w + "px",
+            height: p.w + "px",
+            left: p.l + "%",
             bottom: "-10px",
-            animation: `particleFloat ${Math.random() * 8 + 8}s linear infinite`,
-            animationDelay: `${Math.random() * 8}s`,
+            animation: `particleFloat ${p.dur}s linear infinite`,
+            animationDelay: `${p.delay}s`,
           }}
         />
       ))}
@@ -66,19 +95,23 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.2, ease: "easeOut" }}
         >
+          {/* Kharisdon logo */}
+          <h2 className="font-[family-name:var(--font-serif)] text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-semibold text-white tracking-[0.15em] mb-4">
+            Kharisdon
+          </h2>
+
           {/* Decorative line */}
-          <div className="flex items-center justify-center gap-4 mb-8">
+          <div className="flex items-center justify-center gap-4 mb-6">
             <div className="w-12 h-px bg-gold/60" />
             <span className="font-[family-name:var(--font-sans)] text-xs tracking-[0.3em] uppercase text-gold/80">
-              Handcrafted with Purpose
+              Hand-Crafted with Purpose
             </span>
             <div className="w-12 h-px bg-gold/60" />
           </div>
 
-          <h1 className="font-[family-name:var(--font-serif)] text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-light text-white leading-tight mb-6">
+          <h1 className="font-[family-name:var(--font-serif)] text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-light text-white leading-tight mb-6">
             Where Earth
-            <br />
-            <span className="italic font-light text-gold-light">&amp; Heart</span>{" "}
+            <span className="italic font-light text-gold-light"> &amp; Heart </span>
             Meet
           </h1>
         </motion.div>
@@ -89,7 +122,7 @@ export default function Hero() {
           transition={{ duration: 1, delay: 0.4, ease: "easeOut" }}
           className="font-[family-name:var(--font-sans)] text-lg md:text-xl text-white/80 font-light max-w-2xl mx-auto mb-10 leading-relaxed"
         >
-          All-natural, handcrafted skincare rooted in faith and made with
+          Natural, handcrafted skincare rooted in faith and made with
           locally sourced ingredients. Pure goodness for every soul.
         </motion.p>
 

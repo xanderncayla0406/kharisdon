@@ -6,7 +6,7 @@ const steps = [
   {
     title: "Locally Sourced",
     description:
-      "Every ingredient is personally sourced by Karissa from local farms and trusted producers she knows by name.",
+      "Karissa personally sources ingredients from local farms and trusted producers.",
     icon: (
       <svg viewBox="0 0 64 64" className="w-16 h-16">
         <circle cx="32" cy="32" r="30" fill="none" stroke="currentColor" strokeWidth="1.5" opacity="0.2" />
@@ -28,9 +28,9 @@ const steps = [
     ),
   },
   {
-    title: "Grass-Fed Leaf Fat",
+    title: "Pasture-Raised Leaf Fat",
     description:
-      "Our beef tallow comes exclusively from grass-fed leaf fat — the most nutrient-dense part, rich in vitamins A, D, E, and K.",
+      "Our beef tallow comes exclusively from pasture-raised leaf fat \u2014 the most nutrient-dense part, rich in oleic, palmitic, stearic, myristic, palmitoleic, and linoleic fatty acids.",
     icon: (
       <svg viewBox="0 0 64 64" className="w-16 h-16">
         <circle cx="32" cy="32" r="30" fill="none" stroke="currentColor" strokeWidth="1.5" opacity="0.2" />
@@ -55,7 +55,7 @@ const steps = [
   {
     title: "Cold Processed",
     description:
-      "Every product is made through a cold process, preserving the natural nutrients, enzymes, and healing properties that heat would destroy.",
+      "Select products are made through a cold process, preserving the natural nutrients, enzymes, and healing properties that heat would destroy.",
     icon: (
       <svg viewBox="0 0 64 64" className="w-16 h-16">
         <circle cx="32" cy="32" r="30" fill="none" stroke="currentColor" strokeWidth="1.5" opacity="0.2" />
@@ -68,7 +68,6 @@ const steps = [
         <line x1="38" y1="38" x2="45" y2="45" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
         <line x1="45" y1="19" x2="38" y2="26" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
         <line x1="26" y1="38" x2="19" y2="45" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-        {/* Small crystals at ends */}
         <circle cx="32" cy="13" r="1.5" fill="currentColor" opacity="0.5" />
         <circle cx="32" cy="51" r="1.5" fill="currentColor" opacity="0.5" />
         <circle cx="13" cy="32" r="1.5" fill="currentColor" opacity="0.5" />
@@ -79,7 +78,7 @@ const steps = [
   {
     title: "Handcrafted with Love",
     description:
-      "Every batch is made by hand with extreme attention to quality. Each product is a labor of love — never mass-produced, always personal.",
+      "Every batch is made by hand with extreme attention to quality. Each product is a labor of love \u2014 never mass-produced, always personal.",
     icon: (
       <svg viewBox="0 0 64 64" className="w-16 h-16">
         <circle cx="32" cy="32" r="30" fill="none" stroke="currentColor" strokeWidth="1.5" opacity="0.2" />
@@ -109,7 +108,6 @@ const steps = [
           strokeLinecap="round"
         />
         <ellipse cx="32" cy="22" rx="10" ry="4" fill="none" stroke="currentColor" strokeWidth="1.5" />
-        {/* Recycle arrows */}
         <path
           d="M28 36 L32 32 L36 36 M32 32 L32 44"
           fill="none"
@@ -143,7 +141,7 @@ export default function Process() {
             The Process
           </span>
           <h2 className="font-[family-name:var(--font-serif)] text-4xl md:text-5xl lg:text-6xl font-light text-charcoal mb-4">
-            Cold-Crafted,
+            Hand-Crafted,
             <br />
             <span className="italic text-cobalt">Locally Sourced</span>
           </h2>
@@ -156,7 +154,7 @@ export default function Process() {
             <div className="w-16 h-px bg-gold/40" />
           </div>
           <p className="font-[family-name:var(--font-sans)] text-lg text-charcoal-light mt-6 max-w-2xl mx-auto">
-            From farm to face — every step is intentional, every ingredient is purposeful.
+            From earth to skin — every step is intentional, every ingredient is purposeful.
           </p>
         </motion.div>
 

@@ -19,7 +19,7 @@ const lato = Lato({
 export const metadata: Metadata = {
   title: "Kharisdon | Where Earth & Heart Meet",
   description:
-    "Handcrafted, all-natural skincare made with locally sourced ingredients. Grass-fed beef tallow, beeswax, and cold-processed goodness — rooted in faith, made with purpose.",
+    "Handcrafted, natural skincare made with locally sourced ingredients. Pasture-raised beef tallow, beeswax, and cold-processed goodness — rooted in faith, made with purpose.",
   keywords: [
     "natural skincare",
     "beef tallow balm",
@@ -28,12 +28,12 @@ export const metadata: Metadata = {
     "Christian skincare",
     "cold process",
     "locally sourced",
-    "all natural",
+    "natural",
   ],
   openGraph: {
     title: "Kharisdon | Where Earth & Heart Meet",
     description:
-      "Handcrafted, all-natural skincare rooted in faith, made with purpose.",
+      "Handcrafted, natural skincare rooted in faith, made with purpose.",
     url: "https://kharisdon.com",
     siteName: "Kharisdon",
     type: "website",
