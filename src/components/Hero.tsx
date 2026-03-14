@@ -98,7 +98,7 @@ export default function Hero() {
           {/* Decorative line */}
           <div className="flex items-center justify-center gap-4 mb-6">
             <div className="w-12 h-px bg-gold/60" />
-            <span className="font-[family-name:var(--font-sans)] text-xs tracking-[0.3em] uppercase text-gold/80">
+            <span className="font-[family-name:var(--font-sans)] text-sm md:text-base tracking-[0.3em] uppercase text-gold/80">
               Hand-Crafted with Purpose
             </span>
             <div className="w-12 h-px bg-gold/60" />
