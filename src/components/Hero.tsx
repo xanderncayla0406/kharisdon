@@ -89,7 +89,7 @@ export default function Hero() {
       <Particles />
 
       {/* Content */}
-      <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
+      <div className="relative z-10 text-center px-6 max-w-4xl mx-auto -mt-[12vh]">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -104,7 +104,7 @@ export default function Hero() {
             <div className="w-12 h-px bg-gold/60" />
           </div>
 
-          <h1 className="font-[family-name:var(--font-serif)] text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-light text-white leading-tight mb-6">
+          <h1 className="font-[family-name:var(--font-serif)] text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-light text-white leading-tight mb-6">
             Where Earth
             <span className="italic font-light text-gold-light"> &amp; Heart </span>
             Meet
