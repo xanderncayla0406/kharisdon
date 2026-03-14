@@ -26,9 +26,9 @@ export default function CustomGifts() {
           </div>
 
           <h2 className="font-[family-name:var(--font-serif)] text-4xl md:text-5xl lg:text-6xl font-light text-charcoal mb-6">
-            Custom Made
+            Ask About Our Custom Made Gifts
             <br />
-            <span className="italic text-cobalt">for Your Blessed Events</span>
+            <span className="italic text-cobalt">for Your Blessed Events!</span>
           </h2>
 
           <p className="font-[family-name:var(--font-serif)] text-xl md:text-2xl text-charcoal-light leading-relaxed mb-10 max-w-2xl mx-auto">
