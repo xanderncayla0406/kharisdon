@@ -108,7 +108,7 @@ const products: Product[] = [
     name: "Isaiah\u2019s Joy",
     scripture: "Isaiah 61:3",
     verse: "To bestow on them a crown of beauty instead of ashes, the oil of joy instead of mourning.",
-    subtitle: "Beeswax Solid Face Oil",
+    subtitle: "Solid Face Oil",
     description:
       "A rich, solid face oil crafted from local beeswax and nourishing oils for mature skin. Melts into your skin, bringing deep restoration and radiant joy.",
     icon: (

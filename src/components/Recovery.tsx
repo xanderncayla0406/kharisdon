@@ -59,8 +59,8 @@ export default function Recovery() {
         >
           <p className="font-[family-name:var(--font-sans)] text-lg md:text-xl text-white/80 leading-relaxed mb-8 max-w-3xl mx-auto">
             Kharisdon is more than skincare — it&apos;s a ministry. Every product sold
-            brings us one step closer to funding addiction recovery programs for
-            those who need a second chance at life.
+            brings us one step closer to the healing fund — supporting those who
+            need a second chance at life.
           </p>
 
           <p className="font-[family-name:var(--font-sans)] text-lg md:text-xl text-white/80 leading-relaxed mb-8 max-w-3xl mx-auto">
@@ -108,7 +108,7 @@ export default function Recovery() {
               Every purchase plants a seed of hope
             </p>
             <p className="font-[family-name:var(--font-sans)] text-sm text-white/60 tracking-wide">
-              Proceeds go toward addiction recovery programs
+              Proceeds go toward the healing fund
             </p>
           </div>
         </motion.div>

@@ -86,7 +86,7 @@ export default function Mission() {
           <p className="font-[family-name:var(--font-serif)] text-xl md:text-2xl italic text-cobalt leading-relaxed mb-6">
             Kharisdon exists to celebrate the gift of grace through handmade
             care. Just as we have freely received the life-giving love of John
-            3:16, we freely give to others — funding recovery programs that offer
+            3:16, we freely give to others — the healing fund offers
             the restoration promised in 1 Peter 5:10.
           </p>
           <p className="font-[family-name:var(--font-serif)] text-xl md:text-2xl italic text-cobalt leading-relaxed">

@@ -95,11 +95,6 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.2, ease: "easeOut" }}
         >
-          {/* Kharisdon logo */}
-          <h2 className="font-[family-name:var(--font-serif)] text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-semibold text-white tracking-[0.15em] mb-4">
-            Kharisdon
-          </h2>
-
           {/* Decorative line */}
           <div className="flex items-center justify-center gap-4 mb-6">
             <div className="w-12 h-px bg-gold/60" />
