@@ -1,6 +1,14 @@
 import type { Metadata } from "next";
 import { Cormorant_Garamond, Lato } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
+
+const congenial = localFont({
+  src: "../../public/fonts/congenial-bold.otf",
+  variable: "--font-logo",
+  display: "swap",
+  weight: "700",
+});
 
 const cormorant = Cormorant_Garamond({
   variable: "--font-serif",
@@ -48,7 +56,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body
-        className={`${cormorant.variable} ${lato.variable} antialiased`}
+        className={`${congenial.variable} ${cormorant.variable} ${lato.variable} antialiased`}
       >
         {children}
       </body>

@@ -34,8 +34,7 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <a
           href="#"
-          style={{ fontFamily: '"Congenial", Georgia, serif' }}
-          className={`text-3xl md:text-4xl font-bold tracking-[0.1em] transition-colors duration-300 ${
+          className={`font-[family-name:var(--font-logo)] text-3xl md:text-4xl font-bold tracking-[0.1em] transition-colors duration-300 ${
             scrolled ? "text-cobalt" : "text-white"
           }`}
         >
