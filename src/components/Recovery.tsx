@@ -103,27 +103,27 @@ export default function Recovery() {
           viewport={{ once: true, margin: "-50px" }}
           className="inline-block"
         >
-          <div className="border border-gold/30 rounded-2xl px-10 py-8 backdrop-blur-sm bg-white/[0.03]">
-            <p className="font-[family-name:var(--font-serif)] text-xl md:text-2xl text-gold-light italic mb-2">
+          <div className="border border-gold/30 rounded-2xl px-12 py-10 backdrop-blur-sm bg-white/[0.03]">
+            <p className="font-[family-name:var(--font-serif)] text-2xl md:text-3xl text-gold-light italic mb-3">
               Every purchase plants a seed of hope
             </p>
-            <p className="font-[family-name:var(--font-sans)] text-sm text-white/60 tracking-wide mb-4">
+            <p className="font-[family-name:var(--font-serif)] text-lg md:text-xl text-white/60 tracking-wide mb-6">
               Proceeds go toward the healing fund
             </p>
-            <div className="border-t border-white/10 pt-4">
-              <p className="font-[family-name:var(--font-sans)] text-sm text-white/70 mb-1">
+            <div className="border-t border-white/10 pt-6">
+              <p className="font-[family-name:var(--font-serif)] text-lg md:text-xl text-white/80 mb-3 leading-relaxed">
                 If you or someone you know is struggling with addiction or mental health, please reach out.
               </p>
-              <p className="font-[family-name:var(--font-sans)] text-lg md:text-xl font-bold text-gold-light tracking-wide">
+              <p className="font-[family-name:var(--font-serif)] text-2xl md:text-3xl font-bold text-gold-light tracking-wide">
                 Call or text{" "}
                 <a href="tel:988" className="underline decoration-gold/40 hover:decoration-gold transition-colors">
                   988
                 </a>
               </p>
-              <p className="font-[family-name:var(--font-sans)] text-xs text-white/40 mt-1 tracking-wide">
+              <p className="font-[family-name:var(--font-serif)] text-base md:text-lg text-white/50 mt-2 tracking-wide">
                 Suicide &amp; Crisis Lifeline — Available 24/7
               </p>
-              <p className="font-[family-name:var(--font-sans)] text-sm text-white/60 mt-3">
+              <p className="font-[family-name:var(--font-serif)] text-base md:text-lg text-white/60 mt-4">
                 <a
                   href="https://www.samhsa.gov"
                   target="_blank"
