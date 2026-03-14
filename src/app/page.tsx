@@ -4,6 +4,7 @@ import Mission from "@/components/Mission";
 import Products from "@/components/Products";
 import Process from "@/components/Process";
 import Recovery from "@/components/Recovery";
+import CustomGifts from "@/components/CustomGifts";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <Products />
       <Process />
       <Recovery />
+      <CustomGifts />
       <Footer />
     </main>
   );

@@ -108,7 +108,7 @@ export default function Recovery() {
               Every purchase plants a seed of hope
             </p>
             <p className="font-[family-name:var(--font-serif)] text-lg md:text-xl text-white/60 tracking-wide mb-6">
-              Proceeds go toward the healing fund
+              Proceeds go towards recovery and mental health programs
             </p>
             <div className="border-t border-white/10 pt-6">
               <p className="font-[family-name:var(--font-serif)] text-lg md:text-xl text-white/80 mb-3 leading-relaxed">
