@@ -107,9 +107,23 @@ export default function Recovery() {
             <p className="font-[family-name:var(--font-serif)] text-xl md:text-2xl text-gold-light italic mb-2">
               Every purchase plants a seed of hope
             </p>
-            <p className="font-[family-name:var(--font-sans)] text-sm text-white/60 tracking-wide">
+            <p className="font-[family-name:var(--font-sans)] text-sm text-white/60 tracking-wide mb-4">
               Proceeds go toward the healing fund
             </p>
+            <div className="border-t border-white/10 pt-4">
+              <p className="font-[family-name:var(--font-sans)] text-sm text-white/70 mb-1">
+                If you or someone you know is struggling with addiction or mental health, please reach out.
+              </p>
+              <p className="font-[family-name:var(--font-sans)] text-lg md:text-xl font-bold text-gold-light tracking-wide">
+                Call or text{" "}
+                <a href="tel:988" className="underline decoration-gold/40 hover:decoration-gold transition-colors">
+                  988
+                </a>
+              </p>
+              <p className="font-[family-name:var(--font-sans)] text-xs text-white/40 mt-1 tracking-wide">
+                Suicide &amp; Crisis Lifeline — Available 24/7
+              </p>
+            </div>
           </div>
         </motion.div>
       </div>
