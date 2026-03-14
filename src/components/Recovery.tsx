@@ -123,6 +123,17 @@ export default function Recovery() {
               <p className="font-[family-name:var(--font-sans)] text-xs text-white/40 mt-1 tracking-wide">
                 Suicide &amp; Crisis Lifeline — Available 24/7
               </p>
+              <p className="font-[family-name:var(--font-sans)] text-sm text-white/60 mt-3">
+                <a
+                  href="https://www.samhsa.gov"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline decoration-gold/40 hover:decoration-gold hover:text-gold-light transition-colors"
+                >
+                  samhsa.gov
+                </a>
+                {" "}— Substance Abuse &amp; Mental Health Services
+              </p>
             </div>
           </div>
         </motion.div>
