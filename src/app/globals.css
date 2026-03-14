@@ -1,6 +1,15 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "Congenial";
+  src: url("/fonts/congenial-bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 @theme inline {
+  --font-logo: "Congenial", Georgia, serif;
   --color-cobalt: #0047AB;
   --color-cobalt-dark: #003580;
   --color-cobalt-light: #1a5cb8;

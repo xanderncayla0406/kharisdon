@@ -14,7 +14,7 @@ export default function Footer() {
           className="text-center"
         >
           {/* Wordmark */}
-          <h2 className="font-[family-name:var(--font-serif)] text-3xl md:text-4xl font-light text-white mb-2">
+          <h2 className="font-[family-name:var(--font-logo)] text-3xl md:text-4xl font-bold tracking-[0.25em] text-white mb-2">
             Kharisdon
           </h2>
           <p className="font-[family-name:var(--font-sans)] text-xs tracking-[0.3em] uppercase text-white/40 mb-8">
