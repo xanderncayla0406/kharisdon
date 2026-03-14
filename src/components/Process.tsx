@@ -30,7 +30,7 @@ const steps = [
   {
     title: "Pasture-Raised Leaf Fat",
     description:
-      "Our beef tallow comes exclusively from pasture-raised leaf fat \u2014 the most nutrient-dense part, rich in oleic, palmitic, stearic, myristic, palmitoleic, and linoleic fatty acids.",
+      "Our beef tallow comes exclusively from pasture-raised leaf fat \u2014 the most nutrient-dense part, rich in ADEK vitamins and fatty acids.",
     icon: (
       <svg viewBox="0 0 64 64" className="w-16 h-16">
         <circle cx="32" cy="32" r="30" fill="none" stroke="currentColor" strokeWidth="1.5" opacity="0.2" />
