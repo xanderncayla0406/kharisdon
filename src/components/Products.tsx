@@ -105,34 +105,6 @@ const products: Product[] = [
     ),
   },
   {
-    name: "Isaiah\u2019s Joy",
-    scripture: "Isaiah 61:3",
-    verse: "To bestow on them a crown of beauty instead of ashes, the oil of joy instead of mourning.",
-    subtitle: "Solid Face Oil",
-    description:
-      "A rich, solid face oil crafted from local beeswax and nourishing oils for mature skin. Melts into your skin, bringing deep restoration and radiant joy.",
-    icon: (
-      <svg viewBox="0 0 80 100" className="w-full h-full">
-        <defs>
-          <linearGradient id="tin1" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stopColor="#0047AB" />
-            <stop offset="60%" stopColor="#003580" />
-            <stop offset="100%" stopColor="#001a44" />
-          </linearGradient>
-        </defs>
-        <ellipse cx="40" cy="30" rx="30" ry="10" fill="#1a1a1a" opacity="0.7" />
-        <rect x="10" y="30" width="60" height="40" fill="url(#tin1)" />
-        <ellipse cx="40" cy="70" rx="30" ry="10" fill="url(#tin1)" />
-        <ellipse cx="40" cy="30" rx="30" ry="10" fill="url(#tin1)" />
-        <ellipse cx="40" cy="30" rx="30" ry="10" fill="white" opacity="0.08" />
-        <rect x="20" y="38" width="40" height="24" rx="3" fill="white" opacity="0.9" />
-        <rect x="26" y="45" width="28" height="2" rx="1" fill="#0047AB" opacity="0.4" />
-        <rect x="30" y="51" width="20" height="2" rx="1" fill="#0047AB" opacity="0.3" />
-        <ellipse cx="55" cy="40" rx="4" ry="15" fill="white" opacity="0.06" />
-      </svg>
-    ),
-  },
-  {
     name: "Matthew\u2019s Cleanse",
     scripture: "Matthew 6:17",
     verse: "But when you fast, put oil on your head and wash your face.",
@@ -277,8 +249,8 @@ export default function Products() {
           ))}
         </div>
 
-        {/* Bottom row - 3 products */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {/* Bottom row - 2 products centered */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {products.slice(3).map((product, index) => (
             <ProductCard
               key={product.name}
